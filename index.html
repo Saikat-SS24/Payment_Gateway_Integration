@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" 
+    integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Payment Gateway Integration</title>
+</head>
+<body>
+    <div class="nevbar" id="nevbar">
+        <div class="logo">
+            <a href="/index.html" id="logo"><h1><span>THE SPARKS FOUNDATION</span> CHARITY</h1></a>
+        </div>
+        <div class="menu" id="menu">
+            <ul>
+                <li><a id="home" href="index.html">Home</a></li>
+                <li><a href="#explore">Explore</a></li>
+                <li><a href="#service">Service</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a id="about" href="https://www.linkedin.com/in/saikat-sheet-5416b2225/" target="blank">About me</a></li>
+                <li><a id="donate" href="https://rzp.io/l/SDpNMCFbZV" target="blank">Donate</a></li>
+            </ul>
+        </div>
+        <div class="menuicon">
+            <i id="menuicon" onclick="togglemenu()" class="fas fa-chevron-circle-down"> <span>MENU</span></i>
+        </div>
+    </div>
+
+    <div class="cover">
+
+        <div class="information">
+            <h1>-</h1>
+            <h3>Be part of the good campaign</h3>
+            <h2>LIGHT A CANDLE IN POOR’S RESIDENCE BY</h2>
+            <h1> <span>DONATION</span> </h1>
+            <h1>-</h1>
+            <a href="#explore"><button>EXPLORE</button></a>
+            <a href="https://rzp.io/l/SDpNMCFbZV" target="blank"><button>DONATE</button></a>
+        </div>
+
+    </div>
+
+    <div class="explore" id="explore"></div>
+
+    <div class="about">
+        <div class="imgcontanner">
+            <div class="aboutimg"></div>
+        </div>
+        <div class="aboutcontent">
+            <h5>_</h5>
+            <h1>Why Donate?</h1>
+            <p>Our approach is rooted in years of on-the-ground experience, driven by a careful methodology and powered by a deep passion to improve the lives of children and give them a chance to grow up in a family.</p>
+            <p>We believe in collaboration as we know this work is bigger than any one organization. We are part of a global network of nonprofit organizations leading the worldwide movement.</p>
+            <a href="https://rzp.io/l/SDpNMCFbZV" target="black">DONATE</a>
+            <br>
+            <br>
+            <h5>_</h5>
+
+        </div>
+    </div>
+
+    <!-- ==================  Service ====================== -->
+    <div class="service" id="service">
+
+        <h5>SERVICES</h5>
+        <h1>We work unitely and raise donations for Developing World</h1>
+
+        <div class="details">
+
+            <div class="info">
+
+                <div class="logo"><i class="fas fa-book-reader"></i></div>
+                <p id="head">What we do</p>
+                <p>We help to empower underprivileged children with quality education.</p>
+
+            </div>
+
+            <div class="info" data-aos="fade-up">
+
+                <div class="logo"><i class="fas fa-book-open"></i></div>
+                <p id="head">How we do it</p>
+                <p>We helps these children to continue their education through digital initiatives.</p>
+            </div>
+
+            <div class="info" data-aos="fade-up">
+
+                <div class="logo"><i class="fas fa-book"></i></div>
+                <p id="head">Make a difference</p>
+                <p>₹ 1,000 can help a child build a life and add wings to their dreams</p>
+
+            </div>
+
+            <div class="info" data-aos="fade-up">
+
+                <div class="logo"><i class="fas fa-chart-line"></i></div>
+                <p id="head">Lives benefitted so far</p>
+                <p>Over 2k+ children have been benefitted so far with thousands more to go</p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    
+    <!--=====================contact ====================== -->
+    
+    <div class="contact" id="contact">
+        <h1>CONTACT ME</h1>
+        <br>
+        <div class="contactcontanner">
+            
+            <div class="contanner">
+                <div class="heading">
+                    <div class="icon"><i class="far fa-map"></i></div>
+                    <div class="info">
+                        <p>Address : </p>
+                        <p id="contactinfo">V- Road, Shanpur, Panchanantala,Dasngar, Howrah - 5</p>
+                    </div>
+                </div>
+                
+                <div class="heading">
+                    <div class="icon"><i class="fas fa-phone-alt"></i></div>
+                    <div class="info">
+                        <p>Phone : </p>
+                        <p id="contactinfo">+7044705024</p>
+                    </div>
+                </div>
+                
+                <div class="heading">
+                    <div class="icon"><i class="far fa-envelope"></i></div>
+                    <div class="info">
+                        <p>Email : </p>
+                        <p id="contactinfo">SaikatSheet24@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="messageform">
+                <div class="form">
+                    <form action="" method="POST">
+                        
+                        <style>
+                            ::placeholder {color: rgba(255, 255, 255, 0.7);}
+                        </style>
+    
+                        <input type="text" name="name" placeholder="NAME" required>
+                        <input type="email" name="email" placeholder="EMAIL" required>
+                        <input type="text" name="subject" placeholder="SUBJECT" required>
+                        <textarea type="message" name="message" id="inputbox"  cols="30" rows="5" placeholder="MESSAGE" required></textarea>
+                        <button type="submit">SEND MESSAGE</button>
+    
+                    </form>
+                </div>
+            </div>
+
+        </div>          
+    </div>
+
+    <!-- ==================  Counter  ===================== -->
+    <div class="contercontent">
+
+    <div class="counterbox one">
+        <div class="information" data-aos="fade-down">
+            <div class="number"><p style="color: rgba(255, 255, 255, 0.9);">2+</p></div>
+            <div class="text"><p style="color: rgba(255, 255, 255, 0.7);">Year <br> Experienced</p></div>
+        </div>
+    </div>
+    
+    <div class="counterbox">
+        <div class="information" data-aos="fade-down">
+            <div class="number"><p>2400</p></div>
+            <div class="text"><p>children <br> enrolled</p></div>
+        </div>
+    </div>
+
+    <div class="counterbox">
+        <div class="information" data-aos="fade-down">
+            <div class="number"><p>2</p></div>
+            <div class="text"><p>Mission <br> Education Centres</p></div>
+        </div>
+    </div>
+
+    <div class="counterbox">
+        <div class="information" data-aos="fade-down">
+            <div class="number"><p>4</p></div>
+            <div class="text"><p>States <br> Across India</p></div>
+        </div>
+    </div>
+
+    </div>
+
+
+
+    <!-- ==========<div class="topspace"></div>============ -->
+    <footer>
+        <p>All right reserved By <a href="https://www.linkedin.com/in/saikat-sheet-5416b2225/" target="black"><strong> @Saikat Sheet</strong></p>
+    </footer>
+    <!--=================== scripts=======================  -->
+    <script>
+        // drop down menu script
+        var menu = document.getElementById("menu");
+        menu.style.maxHeight = "0px";
+        function togglemenu() {
+            if (menu.style.maxHeight == "0px") {
+                menu.style.maxHeight = "390px";
+            }
+            else {
+                menu.style.maxHeight = "0px";
+            }
+        }
+    </script>
+
+</body>
+</html>
